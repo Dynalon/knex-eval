@@ -1,0 +1,22 @@
+{
+  "name": "knex-eval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier --write src/**/*.ts tsconfig.json package.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "prettier": "^2.0.5",
+    "sqlite3": "^4.2.0",
+    "typescript": "^3.9.5"
+  }
+}
